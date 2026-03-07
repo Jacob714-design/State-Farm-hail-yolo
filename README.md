@@ -59,7 +59,7 @@ Labels will be generated in each split's `labels/` folder automatically.
 ```bash
 python3 train.py
 ```
-Requires a GPU. Results are saved to `runs/hail_yolo_v1/`.
+Results are saved to `runs/hail_yolo_v1/`.
 
 ## Classes
 | ID | Name |
