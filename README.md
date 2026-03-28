@@ -61,6 +61,14 @@ python3 train.py
 ```
 Results are saved to `runs/hail_yolo_v1/`.
 
+#### Training options
+```bash
+python3 train.py --epochs 100 --batch 32 --imgsz 640 --name my_run
+python3 train.py --model yolo11m.pt          # use a different model size
+python3 train.py --resume                     # resume from last checkpoint
+```
+Run `python3 train.py --help` for all available options.
+
 ## Classes
 | ID | Name |
 |----|------|
