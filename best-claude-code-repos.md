@@ -310,3 +310,96 @@
 - **Gateways/Proxies**: `mcpo`, `metamcp`, `Unla`, `mcphub`, `mcp-router`, `mcp-proxy`, `mcptools`
 - **Clients/Hosts**: `Dive`, `mcphub.nvim`
 - **Platforms**: `fast-agent`, `archestra`, `bifrost`, `OpenMetadata`, `klavis`, `mcp-shrimp-task-manager`, `web-eval-agent`, `fusio`
+
+---
+
+# 50 More: Agent Teams, Multi-Agent Frameworks & Orchestration
+
+*Added 2026-03-29. Repos for building, coordinating, and deploying teams of AI agents -- all usable alongside or inside Claude Code.*
+
+---
+
+## Tier 1: Foundational Frameworks (10K+ Stars)
+
+| # | Repo | Stars | Description |
+|---|------|-------|-------------|
+| 1 | [langchain-ai/langchain](https://github.com/langchain-ai/langchain) | 131.4K | The agent engineering platform -- chains, tools, memory, RAG, multi-agent |
+| 2 | [FoundationAgents/MetaGPT](https://github.com/FoundationAgents/MetaGPT) | 66.4K | First AI software company -- multi-agent framework where agents play roles (PM, architect, engineer) |
+| 3 | [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | 51.3K | Open-source long-horizon SuperAgent harness -- researches, codes, creates with subagents |
+| 4 | [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) | 47.4K | Role-playing autonomous AI agent teams -- collaborative intelligence for complex tasks |
+| 5 | [zhayujie/chatgpt-on-wechat](https://github.com/zhayujie/chatgpt-on-wechat) | 42.6K | CowAgent super AI assistant -- multi-agent with skills, memory, and multi-channel support |
+| 6 | [langchain-ai/langgraph](https://github.com/langchain-ai/langgraph) | 27.8K | Build resilient language agents as graphs -- stateful, cyclic multi-agent workflows |
+| 7 | [huggingface/agents-course](https://github.com/huggingface/agents-course) | 27.3K | Hugging Face's official agents course -- smolagents, LangChain, LlamaIndex |
+| 8 | [mastra-ai/mastra](https://github.com/mastra-ai/mastra) | 22.4K | From the Gatsby team -- TypeScript AI agent framework with MCP, evals, workflows |
+| 9 | [agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope) | 21.6K | Build agents you can see, understand, and trust -- multi-modal, MCP-enabled |
+| 10 | [google/adk-python](https://github.com/google/adk-python) | 18.6K | Google's Agent Development Kit -- code-first Python toolkit for multi-agent systems |
+| 11 | [NirDiamant/agents-towards-production](https://github.com/NirDiamant/agents-towards-production) | 18.5K | End-to-end tutorials for production-grade GenAI agents -- from spark to scale |
+| 12 | [cft0808/edict](https://github.com/cft0808/edict) | 13.3K | 9 specialized AI agents with real-time dashboard, model config, and audit trails |
+| 13 | [nanobrowser/nanobrowser](https://github.com/nanobrowser/nanobrowser) | 12.6K | Multi-agent browser automation Chrome extension -- use your own LLM keys |
+| 14 | [neuml/txtai](https://github.com/neuml/txtai) | 12.3K | All-in-one AI framework for semantic search, LLM orchestration, and agent workflows |
+
+## Tier 2: Production Frameworks (3K-10K Stars)
+
+| # | Repo | Stars | Description |
+|---|------|-------|-------------|
+| 15 | [iflytek/astron-agent](https://github.com/iflytek/astron-agent) | 10.8K | Enterprise-grade agentic workflow platform for SuperAgents |
+| 16 | [alibaba/spring-ai-alibaba](https://github.com/alibaba/spring-ai-alibaba) | 9.0K | Agentic AI framework for Java -- multi-agent, context engineering, graph workflows |
+| 17 | [microsoft/agent-framework](https://github.com/microsoft/agent-framework) | 8.3K | Microsoft's framework for building multi-agent workflows (Python + .NET) |
+| 18 | [ringhyacinth/Star-Office-UI](https://github.com/ringhyacinth/Star-Office-UI) | 6.2K | Pixel office UI for your agents -- visualize work states with characters and dashboards |
+| 19 | [kyegomez/swarms](https://github.com/kyegomez/swarms) | 6.1K | Enterprise-grade multi-agent swarm orchestration framework |
+| 20 | [MervinPraison/PraisonAI](https://github.com/MervinPraison/PraisonAI) | 5.7K | Your 24/7 AI employee team -- handoffs, guardrails, memory, RAG, 100+ LLMs |
+| 21 | [ComposioHQ/agent-orchestrator](https://github.com/ComposioHQ/agent-orchestrator) | 5.6K | Parallel coding agents -- plans tasks, spawns agents, handles CI fixes and code reviews |
+| 22 | [casibase/casibase](https://github.com/casibase/casibase) | 4.5K | AI Cloud OS -- MCP/A2A management platform with multi-agent knowledge base |
+| 23 | [ModelEngine-Group/nexent](https://github.com/ModelEngine-Group/nexent) | 4.4K | Zero-code platform for auto-generating production agents using harness engineering |
+| 24 | [ag2ai/ag2](https://github.com/ag2ai/ag2) | 4.3K | AG2 (formerly AutoGen) -- the open-source AgentOS with A2A and MCP support |
+| 25 | [SciSharp/BotSharp](https://github.com/SciSharp/BotSharp) | 3.0K | Multi-agent AI framework in .NET |
+
+## Tier 3: Specialized Agent Teams (1K-3K Stars)
+
+| # | Repo | Stars | Description |
+|---|------|-------|-------------|
+| 26 | [SolaceLabs/solace-agent-mesh](https://github.com/SolaceLabs/solace-agent-mesh) | 2.6K | Event-driven multi-agent framework -- A2A + MCP + enterprise integration |
+| 27 | [SynkraAI/aiox-core](https://github.com/SynkraAI/aiox-core) | 2.5K | AI-orchestrated system for full-stack development -- multi-agent core framework |
+| 28 | [guy-hartstein/company-research-agent](https://github.com/guy-hartstein/company-research-agent) | 1.6K | Multi-agent company research tool with LangGraph + Tavily |
+| 29 | [SmythOS/sre](https://github.com/SmythOS/sre) | 1.2K | SmythOS Runtime -- cloud-native runtime for agentic AI with multi-agent support |
+
+## Tier 4: Emerging & Innovative (Under 1K Stars)
+
+| # | Repo | Stars | Description |
+|---|------|-------|-------------|
+| 30 | [Dicklesworthstone/claude_code_agent_farm](https://github.com/Dicklesworthstone/claude_code_agent_farm) | 760 | Run 20+ Claude Code agents in parallel -- bug fixing, sweeps, tmux monitoring |
+| 31 | [wanxingai/LightAgent](https://github.com/wanxingai/LightAgent) | 779 | Lightweight AI agent framework with memory, tools, tree-of-thought, and multi-agent collaboration |
+| 32 | [rapidaai/voice-ai](https://github.com/rapidaai/voice-ai) | 714 | Voice AI orchestration -- real-time conversational agents with STT/TTS/VAD |
+| 33 | [lofcz/LLMTornado](https://github.com/lofcz/LLMTornado) | 588 | .NET library with 30+ built-in connectors, A2A + MCP + multi-agent orchestration |
+| 34 | [christopherkarani/Swarm](https://github.com/christopherkarani/Swarm) | 398 | Lightweight agent orchestration in pure Swift 6.2 -- iOS, macOS, watchOS |
+| 35 | [MedChaouch/Puzld.ai](https://github.com/MedChaouch/Puzld.ai) | 252 | Multi-LLM orchestration framework for Claude Code, Codex, Gemini |
+| 36 | [openai-swarm-node](https://github.com/youseai/openai-swarm-node) | 147 | Node.js implementation of OpenAI's Swarm multi-agent framework |
+| 37 | [The-Swarm-Corporation/swarms-rs](https://github.com/The-Swarm-Corporation/swarms-rs) | 138 | Enterprise multi-agent orchestration in Rust |
+| 38 | [AgenticGoKit/AgenticGoKit](https://github.com/AgenticGoKit/AgenticGoKit) | 125 | Agentic AI framework in Go -- LLM-agnostic, event-driven, MCP tool discovery |
+| 39 | [Sovereign-OS](https://github.com/Justin0504/Sovereign-OS) | 107 | Constitution-first AI orchestration -- CEO plans, CFO approves, Ledger tracks |
+| 40 | [stoneforge-ai/stoneforge](https://github.com/stoneforge-ai/stoneforge) | 91 | Web dashboard and runtime for orchestrating AI coding agents |
+| 41 | [kelos-dev/kelos](https://github.com/kelos-dev/kelos) | 90 | Kubernetes-native framework for orchestrating autonomous AI coding agents |
+| 42 | [Agenticle](https://github.com/A03HCY/Agenticle) | 85 | Lightweight Python framework for single or multi-agent AI systems |
+| 43 | [AssemblyZero](https://github.com/martymcenroe/AssemblyZero) | 74 | Parameterized multi-agent orchestration for Claude Code and Gemini |
+| 44 | [OrlojHQ/orloj](https://github.com/OrlojHQ/orloj) | 50 | Declare agents, tools, and policies as YAML -- runtime governs and executes |
+| 45 | [mastra-ai/template-coding-agent](https://github.com/mastra-ai/template-coding-agent) | 40 | Advanced Mastra AI coding agent with sandbox execution and file management |
+| 46 | [agents-squads/squads-cli](https://github.com/agents-squads/squads-cli) | 37 | CLI for managing AI agent squads -- status, memory, goals, feedback, dashboard |
+| 47 | [kivo360/OmoiOS](https://github.com/kivo360/OmoiOS) | 37 | Spec-driven multi-agent orchestration -- autonomous dev workforce via Claude |
+| 48 | [Jovancoding/Network-AI](https://github.com/Jovancoding/Network-AI) | 30 | Multi-agent orchestrator with shared state, guardrails, adapters for 17 AI frameworks |
+| 49 | [zeynepyorulmaz/openclaw-orchestrator](https://github.com/zeynepyorulmaz/openclaw-orchestrator) | 29 | Adaptive multi-agent orchestration with real-time web dashboard |
+| 50 | [The-Swarm-Corporation/AdvancedResearch](https://github.com/The-Swarm-Corporation/AdvancedResearch) | 25 | Implementation of Anthropic's orchestrator-worker pattern for multi-agent research |
+
+---
+
+## Agent Teams Categories At-a-Glance
+
+- **Full Frameworks**: `langchain`, `crewAI`, `MetaGPT`, `langgraph`, `mastra`, `agentscope`, `adk-python`
+- **Swarm/Fleet**: `swarms`, `swarms-rs`, `agent-orchestrator`, `openai-swarm-node`, `Swarm` (Swift)
+- **Enterprise**: `astron-agent`, `spring-ai-alibaba`, `microsoft/agent-framework`, `ag2`, `BotSharp`
+- **SuperAgents**: `deer-flow`, `nexent`, `PraisonAI`, `chatgpt-on-wechat`
+- **Claude Code Specific**: `claude_code_agent_farm`, `AssemblyZero`, `OmoiOS`, `Puzld.ai`
+- **Parallel Coding**: `agent-orchestrator`, `claude_code_agent_farm`, `kelos`, `stoneforge`
+- **Visualization**: `Star-Office-UI`, `edict`
+- **Learning**: `agents-course`, `agents-towards-production`
+- **Event-Driven**: `solace-agent-mesh`, `AgenticGoKit`
+- **Language-Specific**: Go (`AgenticGoKit`), Rust (`swarms-rs`), Swift (`Swarm`), .NET (`BotSharp`, `LLMTornado`), Java (`spring-ai-alibaba`)
