@@ -54,6 +54,113 @@
 
 ---
 
+# Not Claude-Code-Specific, But Powerful Inside Claude Code
+
+*These repos aren't built for Claude Code specifically, but integrate beautifully via MCP servers, CLI tools, or as workflow companions.*
+
+---
+
+## MCP Servers -- Plug Directly Into Claude Code
+
+### Workflow Automation & Platforms
+
+| # | Repo | Stars | Description |
+|---|------|-------|-------------|
+| 1 | [n8n-io/n8n](https://github.com/n8n-io/n8n) | 181.5K | Fair-code workflow automation with 400+ integrations, native MCP server/client support |
+| 2 | [activepieces/activepieces](https://github.com/activepieces/activepieces) | 21.5K | AI agents & workflow automation with ~400 MCP servers for AI agents |
+| 3 | [triggerdotdev/trigger.dev](https://github.com/triggerdotdev/trigger.dev) | 14.3K | Build and deploy fully-managed AI agents and workflows, MCP server included |
+| 4 | [czlonkowski/n8n-mcp](https://github.com/czlonkowski/n8n-mcp) | 16.8K | MCP server for Claude Code / Windsurf / Cursor to build n8n workflows for you |
+
+### Browser, DevTools & Web
+
+| # | Repo | Stars | Description |
+|---|------|-------|-------------|
+| 5 | [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) | 32.1K | Chrome DevTools for coding agents -- debug, inspect, and interact with browsers from Claude Code |
+| 6 | [D4Vinci/Scrapling](https://github.com/D4Vinci/Scrapling) | 33.6K | Adaptive web scraping framework with MCP server -- from single requests to full-scale crawls |
+| 7 | [executeautomation/mcp-playwright](https://github.com/executeautomation/mcp-playwright) | 5.4K | Playwright MCP server -- automate browsers and APIs directly from Claude Code |
+| 8 | [brightdata/brightdata-mcp](https://github.com/brightdata/brightdata-mcp) | 2.2K | MCP server providing all-in-one public web access for AI agents |
+
+### GitHub, Code & Dev Infrastructure
+
+| # | Repo | Stars | Description |
+|---|------|-------|-------------|
+| 9 | [github/github-mcp-server](https://github.com/github/github-mcp-server) | 28.3K | **GitHub's official MCP server** -- PRs, issues, repos, actions, all accessible from Claude Code |
+| 10 | [modelcontextprotocol/inspector](https://github.com/modelcontextprotocol/inspector) | 9.2K | Visual testing tool for MCP servers -- debug and validate your MCP integrations |
+| 11 | [mcp-use/mcp-use](https://github.com/mcp-use/mcp-use) | 9.6K | Fullstack MCP framework to develop MCP Apps and Servers for AI agents |
+| 12 | [tadata-org/fastapi_mcp](https://github.com/tadata-org/fastapi_mcp) | 11.7K | Expose any FastAPI endpoint as an MCP tool with auth -- instant Claude Code integration |
+| 13 | [Jpisnice/shadcn-ui-mcp-server](https://github.com/Jpisnice/shadcn-ui-mcp-server) | 2.7K | MCP server giving LLMs context about shadcn/ui components (React, Svelte, Vue, React Native) |
+
+### Databases
+
+| # | Repo | Stars | Description |
+|---|------|-------|-------------|
+| 14 | [bytebase/dbhub](https://github.com/bytebase/dbhub) | 2.4K | Zero-dependency, token-efficient database MCP server for Postgres, MySQL, SQL Server, MariaDB, SQLite |
+
+### Cloud & Enterprise
+
+| # | Repo | Stars | Description |
+|---|------|-------|-------------|
+| 15 | [awslabs/mcp](https://github.com/awslabs/mcp) | 8.6K | **Official AWS MCP servers** -- interact with AWS services directly from Claude Code |
+| 16 | [microsoft/mcp](https://github.com/microsoft/mcp) | 2.9K | **Official Microsoft MCP servers** -- Azure, Office 365, and more |
+| 17 | [sooperset/mcp-atlassian](https://github.com/sooperset/mcp-atlassian) | 4.8K | MCP server for Jira and Confluence -- manage tickets and docs from Claude Code |
+| 18 | [getsentry/XcodeBuildMCP](https://github.com/getsentry/XcodeBuildMCP) | 4.9K | MCP server + CLI for iOS/macOS projects -- build, test, and debug Xcode projects |
+
+### Specialized MCP Servers
+
+| # | Repo | Stars | Description |
+|---|------|-------|-------------|
+| 19 | [perplexityai/modelcontextprotocol](https://github.com/perplexityai/modelcontextprotocol) | 2.1K | Official Perplexity MCP server -- web search and research from Claude Code |
+| 20 | [CursorTouch/Windows-MCP](https://github.com/CursorTouch/Windows-MCP) | 4.9K | MCP server for Windows computer use -- desktop automation from Claude Code |
+| 21 | [Coding-Solo/godot-mcp](https://github.com/Coding-Solo/godot-mcp) | 2.7K | MCP server for Godot game engine -- launch editor, run projects, capture debug output |
+
+---
+
+## MCP Discovery & Learning
+
+| # | Repo | Stars | Description |
+|---|------|-------|-------------|
+| 22 | [appcypher/awesome-mcp-servers](https://github.com/appcypher/awesome-mcp-servers) | 5.3K | Curated list of MCP servers across all categories |
+| 23 | [wong2/awesome-mcp-servers](https://github.com/wong2/awesome-mcp-servers) | 3.8K | Another comprehensive curated MCP server list |
+| 24 | [microsoft/mcp-for-beginners](https://github.com/microsoft/mcp-for-beginners) | 15.7K | Microsoft's open-source MCP curriculum with real-world examples in 6 languages |
+| 25 | [WagnerAgent/awesome-mcp-servers-devops](https://github.com/WagnerAgent/awesome-mcp-servers-devops) | 92 | DevOps-focused MCP server list -- IaC, K8s, CI/CD, cloud, observability, security |
+
+---
+
+## AI Research & Deep Work Tools
+
+| # | Repo | Stars | Description |
+|---|------|-------|-------------|
+| 26 | [upstash/context7](https://github.com/upstash/context7) | 50.9K | Up-to-date code documentation for LLMs -- feed fresh docs into Claude Code via MCP |
+| 27 | [assafelovic/gpt-researcher](https://github.com/assafelovic/gpt-researcher) | 26.1K | Autonomous deep research agent with MCP server -- works with any LLM provider |
+| 28 | [sansan0/TrendRadar](https://github.com/sansan0/TrendRadar) | 49.9K | AI-driven trend monitoring with multi-platform aggregation, RSS, and MCP integration |
+| 29 | [bytedance/UI-TARS-desktop](https://github.com/bytedance/UI-TARS-desktop) | 29.1K | Multimodal AI agent stack for GUI automation -- computer use with MCP server |
+
+---
+
+## Code Intelligence & Semantic Search
+
+| # | Repo | Stars | Description |
+|---|------|-------|-------------|
+| 30 | [oraios/serena](https://github.com/oraios/serena) | 22.2K | Powerful coding agent toolkit with semantic retrieval and editing via MCP server |
+| 31 | [yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers) | 11.4K | Convert docs, GitHub repos, and PDFs into Claude AI skills with conflict detection |
+| 32 | [jgravelle/jcodemunch-mcp](https://github.com/jgravelle/jcodemunch-mcp) | 1.3K | Token-efficient MCP server for code exploration via tree-sitter AST parsing |
+| 33 | [CodeGraphContext/CodeGraphContext](https://github.com/CodeGraphContext/CodeGraphContext) | 2.7K | Indexes local code into a graph database, provides context to AI assistants via MCP |
+| 34 | [probelabs/probe](https://github.com/probelabs/probe) | 518 | AI-friendly semantic code search -- ripgrep speed + tree-sitter AST parsing with MCP |
+| 35 | [aipotheosis-labs/aci](https://github.com/aipotheosis-labs/aci) | 4.7K | 600+ tools via unified MCP server or direct function calling for any agentic IDE |
+
+---
+
+## Workflow Companions (No MCP, but CLI/terminal-friendly)
+
+| # | Repo | Stars | Description |
+|---|------|-------|-------------|
+| 36 | [google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli) | 99.4K | Google's terminal AI agent -- use alongside Claude Code, shares MCP servers |
+| 37 | [Pimzino/spec-workflow-mcp](https://github.com/Pimzino/spec-workflow-mcp) | 4.1K | Spec-driven development workflow with real-time web dashboard and VSCode extension |
+| 38 | [0x4m4/hexstrike-ai](https://github.com/0x4m4/hexstrike-ai) | 7.7K | 150+ cybersecurity tools as MCP server -- pentesting and security research from AI agents |
+| 39 | [1Panel-dev/MaxKB](https://github.com/1Panel-dev/MaxKB) | 20.6K | Enterprise-grade agent platform with RAG, knowledge bases, and MCP server |
+
+---
+
 ## Categories At-a-Glance
 
 - **Getting Started**: `anthropics/claude-code`, `learn-claude-code`, `claude-code-mastery`
@@ -63,3 +170,14 @@
 - **Multi-Agent / Orchestration**: `agents`, `ruflo`, `claude-mpm`, `vibe-kanban`
 - **Tooling & Infra**: `cc-switch`, `claude-code-router`, `agnix`
 - **System Prompts / Research**: `system-prompts-and-models-of-ai-tools`
+
+### Non-Claude-Specific (Usable Inside Claude Code)
+
+- **MCP Servers - Workflow**: `n8n`, `activepieces`, `trigger.dev`, `n8n-mcp`
+- **MCP Servers - Browser/Web**: `chrome-devtools-mcp`, `Scrapling`, `mcp-playwright`, `brightdata-mcp`
+- **MCP Servers - GitHub/Dev**: `github-mcp-server`, `fastapi_mcp`, `shadcn-ui-mcp-server`, `mcp-use`
+- **MCP Servers - Data/Cloud**: `dbhub`, `awslabs/mcp`, `microsoft/mcp`, `mcp-atlassian`, `XcodeBuildMCP`
+- **MCP Discovery**: `awesome-mcp-servers`, `mcp-for-beginners`
+- **Research & Monitoring**: `context7`, `gpt-researcher`, `TrendRadar`
+- **Code Intelligence**: `serena`, `Skill_Seekers`, `jcodemunch-mcp`, `CodeGraphContext`, `probe`, `aci`
+- **Security**: `hexstrike-ai`
