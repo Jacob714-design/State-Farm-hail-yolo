@@ -403,3 +403,46 @@
 - **Learning**: `agents-course`, `agents-towards-production`
 - **Event-Driven**: `solace-agent-mesh`, `AgenticGoKit`
 - **Language-Specific**: Go (`AgenticGoKit`), Rust (`swarms-rs`), Swift (`Swarm`), .NET (`BotSharp`, `LLMTornado`), Java (`spring-ai-alibaba`)
+
+---
+
+## Wave 6: Repos With 300+ Agents Working Together Agentically
+
+> **Key finding:** True 300+ agent agentic collaboration is extremely rare. Most repos are either (a) frameworks that scale theoretically but demo 2–20 agents, or (b) skill/plugin libraries where entries are individually invoked, not autonomous teams.
+
+### Confirmed 300+ Agent Repos
+
+| # | Repo | Stars | Max Agents | How They Collaborate |
+|---|------|-------|-----------|---------------------|
+| 1 | [All-Hands-AI/OpenHands](https://github.com/All-Hands-AI/OpenHands) | 70.1K | 1,000s | Cloud-scaled agents, each with own sandbox, coordinated task execution |
+| 2 | [microsoft/autogen](https://github.com/microsoft/autogen) | 56.3K | Unlimited | GroupChat, nested conversations, dynamic agent spawning (AG2) |
+| 3 | [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) | 47.4K | 450M/month in prod | Hierarchical crews, sequential/parallel pipelines, enterprise orchestration |
+| 4 | [OpenBMB/ChatDev](https://github.com/OpenBMB/ChatDev) | 25K+ | 1,000+ | MacNet topology eliminates context overflow, zero-code multi-agent orchestration |
+| 5 | [camel-ai/camel](https://github.com/camel-ai/camel) | 16.5K | 1,000,000 | Role-playing agent societies, scaling law research, multi-agent communication |
+| 6 | [kyegomez/swarms](https://github.com/kyegomez/swarms) | 6.1K | 1,000s | SpreadsheetSwarm for thousands, hierarchical/concurrent/graph/sequential patterns |
+| 7 | [jeremylongshore/claude-code-plugins-plus-skills](https://github.com/jeremylongshore/claude-code-plugins-plus-skills) | 1.7K | 2,811 skills + 154 agents | Orchestration patterns, subagent delegation, hierarchical task routing |
+
+### Key Details
+
+- **CAMEL** is the only repo that has *published research* on 1M agent societies — it's a research platform, not a production framework
+- **CrewAI** has the strongest *production* claim at 450M agents/month across enterprise customers
+- **OpenHands** is the highest-starred and scales via cloud sandboxing (each agent gets isolated execution)
+- **Swarms** has the most diverse topology options (SpreadsheetSwarm is purpose-built for thousands of concurrent agents)
+- **ChatDev/MacNet** solved the context window problem that kills most multi-agent systems at scale
+- **AutoGen/AG2** is Microsoft-backed and the most flexible, but no public 300+ demo exists
+- **claude-code-plugins-plus-skills** is the only Claude Code-native option with this scale
+
+### Notable Mentions (Large But Not Truly Agentic Teams)
+
+| Repo | Stars | Count | Why Not Qualified |
+|------|-------|-------|-------------------|
+| [sickn33/antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills) | 28.2K | 1,331 skills | Skills are individually invoked instruction files, not autonomous collaborators |
+| [rohitg00/awesome-claude-code-toolkit](https://github.com/rohitg00/awesome-claude-code-toolkit) | ~2K | 135 agents | Some orchestration but not 300+ scale |
+| [affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code) | 114.7K | 28 agents | High quality but small team size |
+
+### Scale Tiers
+
+- **Research Scale (1M+)**: `camel-ai/camel`
+- **Production Scale (1,000s)**: `OpenHands`, `crewAI`, `swarms`, `ChatDev/MacNet`
+- **Enterprise Framework (unlimited theoretical)**: `microsoft/autogen`
+- **Claude Code Native (2,800+ skills)**: `claude-code-plugins-plus-skills`
